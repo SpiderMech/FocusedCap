@@ -1,3 +1,7 @@
+# What is this?
+Image captioning systems take a single image as input and automatically generates text that describes the scene of the image. This problem has amassed over a decade of active research and is starting to branch out to more interesting directions. For this specific project, the guiding principle is to design a system that allows users to shift the focus of the generated caption, without losing information about the surroundings. A user provides an image, and specifies a bounding box, and the system will generate a caption that describes the entities inside the bounding box first (the subject) then the surroundings (the context).
+
+
 # Prerequisites
 - Python version 3.8 or above
 - Jupyter Notebook
@@ -32,6 +36,6 @@ Here is a list of models, for reference purpose only
 After downloading, all the models must be moved to the directory *pretrained_models*
 
 # Using the application
-1. Open the file named inference.ipynb
+1. Open the notebook titled inference.ipynb
 2. Make sure that the environment created earlier is activated, or all dependecies are properly installed in your local environment
-3. Run the cells one by one, they are commented with clear instructions. Cells without instructions should be run regardless, but only commented cells require user input.
+3. Run the cells one by one, they are commented with clear instructions. Cells without instructions should be run regardless, but only certain commented cells require user input.
