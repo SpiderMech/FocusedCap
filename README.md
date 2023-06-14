@@ -2,6 +2,9 @@
 Image captioning systems take a single image as input and automatically generates text that describes the scene of the image. This problem has amassed over a decade of active research and is starting to branch out to more interesting directions. For this specific project, the guiding principle is to design a system that allows users to shift the focus of the generated caption, without losing information about the surroundings. A user provides an image, and specifies a bounding box, and the system will generate a caption that describes the entities inside the bounding box first (the subject) then the surroundings (the context).
 
 Note that this is an active project and I'm actively trying to improve the quality of generated captions.
+
+![image](https://github.com/SpiderMech/FocusedCap/assets/49848129/1beb26d1-fbe8-4f4a-a7d9-622d9239fc7e)
+
 # Prerequisites
 - Python version 3.8 or above
 - Jupyter Notebook
